@@ -2,7 +2,7 @@
 
 define('DS',DIRECTORY_SEPARATOR);
 define('ROOT',realpath(dirname(__FILE__)).DS);
-define('URL',"http://localhost/main3/");
+define('URL',"http://localhost/main3/admin/");
 
 require_once "Config/Autoload.php";
 Config\Autoload::run();
